@@ -32,17 +32,9 @@ class Program
             letter = "F";
         }
         lastDigit = grade%10;
-        if (lastDigit >=7 && grade >= 90)
-        {
-            sign = " ";
-        }
-        else if (lastDigit >= 7)
+        if (lastDigit >= 7)
         {
             sign = "+";
-        }
-        else if (lastDigit >= 3 && lastDigit < 7 && grade < 60)
-        {
-            sign = " ";
         }
         else if (lastDigit >= 3 && lastDigit < 7)
         {
